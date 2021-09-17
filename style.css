@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header h1{
+    font-size: 26pt;
+    margin-left: 20px;
+}
+
+#search{
+    border:2px solid black;
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 14pt;
+}
+
+#header button{
+    height:40px;
+    width:120px;
+    font-size:18pt;
+    border: none;
+    background-color: blue;
+    color: ghostwhite;
+    margin-right: 20px;
+    box-shadow: 5px 5px black;
+}
+
+#main{
+    display:flex;
+    justify-content: space-between;
+    height: 600px;
+    width:80%;
+    margin: 30px auto 0px;
+}
+
+#left{
+    width: 60%;
+    height: 100px;
+}
+
+.entry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid black;
+    background-color: ghostwhite;
+    height: 230px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.word{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.word h1{
+    font-size: 28pt;
+    margin-bottom: 10px;
+}
+
+.word h2{
+    margin-bottom: 10px;
+}
+
+.word p{
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+
+.word button{
+    height: 40px;
+    width: 150px;
+    background-color: gold;
+    box-shadow: 5px 5px black;
+    font-size: 18pt;
+    border-color: black;
+}
+
+.entry > p{
+    font-size: 18pt;
+    margin-left: 40px;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    width: 30%;
+    padding: 20px;
+    background-color: ghostwhite;
+    height: 200px;
+    align-items: center;
+    position: relative;
+}
+
+#right h1{
+    font-size: 26pt;
+    margin-bottom: 20px;
+}
+
+#right button{
+    height: 80px;
+    width: 80%;
+    background-color:lightgreen;
+    font-size: 20pt;
+    box-shadow: 5px 5px black;
+    border: none;
+    z-index: 1;
+}
+
+#right img{
+    position: absolute;
+    left: 35%;
+    bottom: 25%;
+    height: 100px;
+}

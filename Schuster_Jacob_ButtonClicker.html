@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click! Those! Buttons!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Dojonary</h1>
+        <input type="search" name="search" id="search" placeholder="Search">
+        <button onclick="login(this)">Sign up!</button>
+    </div>
+    <div id="main">
+        <div id="left">
+            <div class="entry">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="like(this)">Like</button>
+                </div>
+                <p>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+            <div class="entry">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="like(this)">Like</button>
+                </div>
+                <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+        <div id="right">
+            <h1>Dojonary is<br>defined by <strong>YOU</strong></h1>
+            <button onclick=remove(this)>Add Definition</button>
+            <img src="peeking.gif" alt="You found a hidden friend!">
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
